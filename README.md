@@ -1,3 +1,9 @@
+[![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
+
+[cc-by-nc-nd]: http://creativecommons.org/licenses/by-nc-nd/4.0/
+[cc-by-nc-nd-image]: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
+[cc-by-nc-nd-shield]: https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg
+
 ## ADOS Audio Neural Network for ASD Screening
 
 This repository consists of the code used for carrying out classification of Autism Spectrum Disorder (ASD) using audio samples extracted from ADOS clinical examination recordings. Conversion of ADOS recordings into purely audio files was done using `utilities/vac.py` file which requires `ffmpeg`. The neural network's code was inspired from [CNN Audio Neural Network Classifier](https://github.com/AmritK10/Urban-Sound-Classification) and modified for training and prediction over audio dataset extracted from ADOS clinical examination recordings. The neural network was originally used for classification of [Urban-8K](https://urbansounddataset.weebly.com/urbansound8k.html) audio dataset.
